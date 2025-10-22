@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Reiner.IA Chat</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="chat-container">
+        <h1 class="main-title">Isten Bot 🤖</h1>
+
+        <div class="chat-box">
+            <h2 class="sub-title">Pregunta lo que quieras:</h2>
+
+            <div id="messages"></div>
+
+            <div class="input-container">
+                <input type="text" id="mensaje" placeholder="Escribe un mensaje..." />
+                <button onclick="enviar()">Enviar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

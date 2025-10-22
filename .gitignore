@@ -1,0 +1,13 @@
+# Entornos y configuraciones locales
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.env
+api.env
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
